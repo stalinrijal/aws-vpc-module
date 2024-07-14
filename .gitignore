@@ -1,0 +1,31 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.log
+crash.log
+*.tfplan
+*.backup
+.terraform/
+.terraform.lock.hcl
+
+# Local .env files
+.env
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive data
+*.pem
+*.key
+
+# Ignore the following files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.tgz
+
